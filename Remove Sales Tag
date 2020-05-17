@@ -1,0 +1,8 @@
+/**
+ * Remove Sales Tag.
+ */
+add_filter('woocommerce_sale_flash', 'lw_hide_sale_flash');
+function lw_hide_sale_flash()
+{
+return false;
+}
